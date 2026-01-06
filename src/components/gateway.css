@@ -1,0 +1,153 @@
+.gateWay_style {
+  background-color: #f6f9fb;
+  color: black;
+  box-sizing: border-box;
+  font-size: 18px;
+
+}
+a{
+  background-color: white;
+
+}
+
+
+img {
+  max-width: 300px;
+  width: 100%;
+}
+
+.image {
+  top: 0;
+  position: absolute;
+  padding: 5px;
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 10px;
+}
+
+#img-stack {
+  position: relative;
+  width: 300px;
+  height: 220px;
+  margin: auto;
+}
+
+.up {
+  top: 200px;
+  z-index: 2;
+}
+
+.down {
+  top: 50px;
+  left: 250px;
+  z-index: 4;
+}
+
+.left {
+  top: -50px;
+  left: 50px;
+  z-index: 3;
+}
+h2{
+  font-size: 30px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+}
+
+#button-container{
+  background-color: blue;
+  color: aliceblue;
+  margin-top: 20px;
+}
+
+
+.sec {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  background-color: white;
+}
+
+.small-cards {
+  padding: 15px;
+}
+.sec-section{
+  margin-top: 100px;
+}
+
+.sec {
+  display: flex;
+  gap: 50px;
+  background-color: #484848;
+  padding: 20px;
+}
+
+.small-cards {
+  background-color: white;   
+  padding: 20px;
+  border-radius: 12px;
+  width: 180px;
+}
+
+
+.small-cards h4,
+.small-cards p {
+  background-color: transparent;
+  margin: 0 0 10px 0;
+}
+.sec-logo{
+  width: 100px;
+}
+
+.sec {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+.sec {
+  flex-direction: column;   
+  align-items: center;
+}
+
+.small-cards {  
+  width: 90%;               
+}
+}
+
+
+@media (max-width: 768px) {
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+#img-stack {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.image {
+  position: absolute;
+  max-width: 100%;
+}
+}

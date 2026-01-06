@@ -1,0 +1,139 @@
+/* =========================
+   Section
+========================= */
+.achievers-section {
+  max-width: 1200px;
+  margin: 80px auto;
+  text-align: center;
+  padding: 0 16px;
+}
+
+.achievers-section h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #555;
+  max-width: 720px;
+  margin: 0 auto 40px;
+}
+
+/* =========================
+   Horizontal Scroll Slider
+========================= */
+.scroll-slider {
+  display: flex;                 /* 🔥 THIS IS THE KEY */
+  flex-direction: row;           /* force horizontal */
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 10px;
+}
+
+.scroll-slider::-webkit-scrollbar {
+  display: none;
+}
+
+/* =========================
+   Card
+========================= */
+.achiever-card {
+  flex: 0 0 auto;                /* 🔥 prevents wrapping */
+  width: 360px;                  /* desktop */
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  scroll-snap-align: start;
+}
+
+/* =========================
+   Card Body
+========================= */
+.card-body {
+  padding: 24px;
+  text-align: left;
+}
+
+.card-body ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card-body li {
+  margin-bottom: 16px;
+  position: relative;
+  padding-left: 16px;
+}
+
+.card-body li::before {
+  content: "•";
+  color: #1e6eea;
+  position: absolute;
+  left: 0;
+}
+
+/* =========================
+   Footer
+========================= */
+.card-footer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px;
+  background: #f2f8ff;
+  border-top: 1px solid #e3eefc;
+}
+
+.card-footer img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 600;
+}
+
+/* =========================
+   Tablet
+========================= */
+@media (max-width: 1024px) {
+  .achiever-card {
+    width: 320px;
+  }
+
+  .achievers-section h2 {
+    font-size: 34px;
+  }
+}
+
+/* =========================
+   Mobile
+========================= */
+@media (max-width: 768px) {
+  .achiever-card {
+    width: 85%;              /* 🔥 1 card view */
+  }
+
+  .achievers-section h2 {
+    font-size: 28px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+}
+
+/* =========================
+   Small Mobile
+========================= */
+@media (max-width: 480px) {
+  .achiever-card {
+    width: 100%;
+  }
+
+  .achievers-section h2 {
+    font-size: 24px;
+  }
+} 

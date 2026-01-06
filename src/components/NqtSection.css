@@ -1,0 +1,43 @@
+.tcsNqtCertified {
+  background: #f6f5f4;
+  padding: 60px 0;
+  text-align: center;
+  width: 100vw;
+}
+
+.tcsNqtCertified h2 {
+  font-size: 38px;
+  font-weight: 500;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.tcsNqtCertified p {
+  margin-top: 12px;
+  font-size: 18px;
+}
+
+.btn-wrap {
+  margin-top: 30px;
+}
+
+.primary-btn {
+  background: #1e6eea;
+  color: #fff;
+  padding: 14px 36px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+   transition: 0.3s ease; 
+}
+
+.primary-btn:hover {
+  background: #1558c0;
+  box-shadow: 0 8px 20px rgba(30, 110, 234, 0.4);
+  transform: translateY(-2px);
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

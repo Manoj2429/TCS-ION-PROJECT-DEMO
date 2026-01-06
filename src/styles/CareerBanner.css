@@ -1,0 +1,146 @@
+.career-banner {
+  width: 100%;
+}
+
+.career-slide {
+  height: 420px;
+}
+
+.slide-bg {
+  height: 420px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.55);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.text-wrap {
+  max-width: 600px;
+  color: white;
+}
+
+.text-wrap h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.text-wrap p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.text-wrap button {
+  background: #1b4cd3;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* arrows */
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+}
+
+.custom-next {
+  right: 20px;
+}
+
+.custom-prev {
+  left: 20px;
+}
+
+
+/* REQUIRED for slick */
+.slick-slider,
+.slick-list,
+.slick-track {
+  height: 100%;
+}
+
+/* Banner wrapper */
+.career-banner {
+  width: 100%;
+  height: 450px;
+}
+
+/* Slide height */
+.career-slide {
+  height: 450px;
+}
+
+/* Background image container */
+.slide-bg {
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Dark overlay */
+.overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+/* Text */
+.text-wrap {
+  max-width: 600px;
+  color: white;
+}
+
+.text-wrap h2 {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.text-wrap p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.text-wrap button {
+  background-color: #1b4cd3;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Arrows */
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+
+.custom-next {
+  right: 20px;
+}
+
+.custom-prev {
+  left: 20px;
+}
